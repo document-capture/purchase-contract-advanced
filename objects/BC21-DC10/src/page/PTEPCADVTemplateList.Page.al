@@ -1,7 +1,7 @@
 page 61140 "PTE PCADV Template List"
 {
     ApplicationArea = All;
-    Caption = 'PTE PCADV Template List';
+    Caption = 'Contract Templates';
     PageType = List;
     SourceTable = "PTE PCADV Contr. Templ. Header";
     UsageCategory = Lists;
@@ -43,14 +43,6 @@ page 61140 "PTE PCADV Template List"
                 field("Review Dateformula"; Rec."Review Dateformula")
                 {
                     ToolTip = 'Specifies the value of the Review Date Formula field.';
-                }
-                field("Contract Line Type"; Rec."Contract Line Type")
-                {
-                    ToolTip = 'Specifies the value of the Contract Line Type field.';
-                }
-                field("Contract Line No."; Rec."Contract Line No.")
-                {
-                    ToolTip = 'Specifies the value of the Contract Line No. field.';
                 }
             }
         }
